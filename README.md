@@ -1,5 +1,8 @@
 Octoprint plugin to replace printer sounds `M300 S2093 P120` with mp3 sound played by RPi over the audio jack via an active speaker of a small amplifier (the signal is not strong enough to drive a speaker)
 
+Install pygame dependencies before starting
+0. apt-get install python-dev libsdl-image1.2-dev libsdl-mixer1.2-dev libsdl-ttf2.0-dev   libsdl1.2-dev libsmpeg-dev python-numpy subversion libportmidi-dev ffmpeg libswscale-dev libavformat-dev libavcodec-dev
+
 1. add mp3 files to `.octoprint/data/sound/` to overwrite or to add new keywords
 2. add settings to `config.yaml`
 
